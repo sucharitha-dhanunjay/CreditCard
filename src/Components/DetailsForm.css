@@ -1,0 +1,70 @@
+.detailform {
+    padding-top: 8rem;
+    width: 480px;
+    margin: 0 auto;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 6px;
+    margin-top: -8rem;
+    display: block;
+}
+
+.form {
+    width: 100%;
+    margin: 0 auto;
+    top: 20rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font: inherit;
+}
+
+.input {
+    font: inherit;
+    display: block;
+    width: 100%;
+    height: 20px;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.expiry {
+    float: left;
+    width: 75%;
+}
+
+    .expiry select {
+        font: inherit;
+        width: 40%;
+        height:3rem;
+        border: 1px solid #ccc;
+        margin-right: 1rem;
+        border-radius: 6px;
+        text-align-last: center;
+    }
+
+
+.cvv {
+    width: 25%;
+    float: right;
+}
+.button {
+    width: 100%;
+    background-color: rgb(4, 84, 216 );
+    color: white;
+    border-radius: 6px;
+    border: none;
+    height: 2.5rem;
+    bottom: 10%;
+    margin-bottom: 1.5rem;
+}
